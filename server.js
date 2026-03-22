@@ -6,7 +6,6 @@ const products = require('./data/products');
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-
 app.use(cors({
   origin: [
     'https://react-ecommercerecente.vercel.app',
